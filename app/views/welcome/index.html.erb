@@ -1,5 +1,5 @@
 <%= stylesheet_link_tag "welcome" %>
-
+<%= stylesheet_link_tag "animate" %>
 <head>
   <title>
     Ruth Wu's personal website
@@ -10,7 +10,7 @@
     <div class = "jumbotron">
       <div class = "row">
         <div class = "col-xs-12 col-sm-12 col-md-12">
-          <center> <img id = "wutang" src = "https://s3.amazonaws.com/wutangruth/Images/wutangruth.png"></center>
+          <center> <img class = "animated bounce" id = "wutang" src = "https://s3.amazonaws.com/wutangruth/Images/wutangruth.png"></center>
         </div>
       </div>
       <div class = "row">
@@ -21,13 +21,13 @@
       <div class = "row">
         <div id = "maintext" class = "col-xs-12 col-sm-12 col-md-offset-2 col-md-8 col-md-offset-2">
           <p> Hey I'm Ruth! I bring ideas to the table and turn them from sketches to reality.<br/>  I can usually be found doing
-          <button type="button" class="btn btn-success">projects</button>
+          <a class = "sliding-middle-out projects" style = "color: #FF9F00; text-decoration: none;" href = "#projects">projects</a>
           , listening to rock-in-your-seat
-          <button type="button" class="btn btn-danger">music</button>
+          <a class = "sliding-middle-out music" style = "color: #FF3989; text-decoration: none;" href = "#music">music</a>
           , or teaching myself something through these
-          <button type="button" class="btn btn-warning">resources</button>
+          <a class = "sliding-middle-out resources" style = "color: #7989FF; text-decoration: none;" href = "#resources">resources</a>
           (|| a combination of the three). <br/> Get the lowdown from my
-          <button type="button" class="btn btn-info">CV</button>. </p>
+          <a class = "sliding-middle-out resume" style = "color: #70D507; text-decoration: none;" href = "#resume">resume</a></p>
         </div>
       </div>
       <div class = "row">
@@ -40,12 +40,6 @@
                 <li><a href = "https://dribbble.com/ruthwu"><img id = "socialicon" src = "https://s3.amazonaws.com/wutangruth/Icons/dribble-icon.png"></a>
               </ul>
           </div>
-    </div>
-    <div class = "row">
-      <br/>
-      <br/>
-      <br/>
-      <br/>
     </div>
   </div>
 </div>

@@ -33,13 +33,14 @@ position: fixed;
     margin-right: 10px;
 }
 #socialicon {
+  padding-top: 20px;
   max-width: none;
   width: 3em;
 }
 
 #wutang {
   max-width: none;
-  width: 15em;
+  width: 17em;
 }
 
 #maintext {
@@ -48,4 +49,40 @@ position: fixed;
 
 #maintext p {
   line-height: 200%;
+}
+
+
+
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 0px;
+}
+.sliding-middle-out:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 1px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.projects.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #FF9F00 ;
+}
+
+.music.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #FF3989 ;
+}
+
+.resources.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #7989FF ;
+}
+
+.resume.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #70D507 ;
 }
