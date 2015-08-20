@@ -3,7 +3,6 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
 html,body {
 height:100%; width: 100%;
 margin: 0px;
@@ -43,10 +42,6 @@ position: fixed;
   width: 17em;
 }
 
-#maintext {
-  text-align: center;
-}
-
 #maintext p {
   line-height: 200%;
 }
@@ -81,8 +76,23 @@ position: fixed;
 	width: 100%;
 	background: #7989FF ;
 }
-
 .resume.sliding-middle-out:hover:after {
 	width: 100%;
 	background: #70D507 ;
+}
+
+
+.ruth.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #00E0EF ;
+}
+
+p {
+  font-family: "Raleway", Helvetica;
+  line-height: 200%;
+}
+
+.explain p {
+  text-align: justify;
+  font-weight: 200;
 }
