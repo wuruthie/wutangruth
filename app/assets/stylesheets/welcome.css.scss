@@ -46,6 +46,9 @@ position: fixed;
   line-height: 200%;
 }
 
+#ruthphoto {
+
+}
 
 
 .sliding-middle-out {
@@ -87,6 +90,16 @@ position: fixed;
 	background: #00E0EF ;
 }
 
+.subletinn.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #215DBD;
+}
+
+.projects.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #34DAAB;
+}
+
 p {
   font-family: "Raleway", Helvetica;
   line-height: 200%;
@@ -95,4 +108,30 @@ p {
 .explain p {
   text-align: justify;
   font-weight: 200;
+  font-size: 1.3em;
+}
+
+.bounce.logo{
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+}
+
+.bounce.carrot{
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: 3;
+}
+
+#projectslabel {
+  max-width: none;
+  width: 10em;
+}
+#aboutlabel {
+  max-width: none;
+  width: 7em;
+}
+
+#subletinnphoto {
+  max-width: none;
+  width: 5em;
 }
