@@ -111,6 +111,13 @@ p {
   font-size: 1.3em;
 }
 
+.smallexplain p{
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.1em;
+  line-height: 200%;
+}
+
 .bounce.logo{
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: 1;
