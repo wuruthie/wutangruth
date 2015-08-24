@@ -1,7 +1,9 @@
-<%= stylesheet_link_tag "welcome" %>
-<%= stylesheet_link_tag "animate" %>
 
 <head>
+<%= stylesheet_link_tag "welcome" %>
+<%= stylesheet_link_tag "animate" %>
+<%= javascript_include_tag "application" %>
+
   <title>
     WU-TANG RUTH
   </title>
@@ -20,10 +22,10 @@
       </div>
       <div class = "row">
         <div id = "maintext" class = "col-xs-12 col-sm-12 col-md-offset-2 col-md-8 col-md-offset-2">
-        <center>  <p> Hey I'm <a class = "sliding-middle-out ruth" style = "color: #00E0EF; text-decoration: none;" href = "#ruth">Ruth</a> ! I sketch ideas and turn them into reality.<br/>  I can usually be found working on
-          <a class = "sliding-middle-out projects" style = "color: #FF9F00; text-decoration: none;" href = "#projects">projects</a>, listening to rock-in-your-seat
-          <a class = "sliding-middle-out music " style = "color: #FF3989; text-decoration: none;" href = "#music">music</a>, or teaching myself something new through these
-          <a class = "sliding-middle-out resources " style = "color: #7989FF; text-decoration: none;" href = "#resources">resources</a>.
+        <center> <p> Hey I'm <a class = "sliding-middle-out ruth" style = "color: #00E0EF; text-decoration: none;" href = "#aboutjump">Ruth</a> ! I sketch ideas and turn them into reality.<br/>  I can usually be found working on
+          <a class = "sliding-middle-out projects" style = "color: #FF9F00; text-decoration: none;" href = "#projectsjump">projects</a>, listening to rock-in-your-seat
+          <a class = "sliding-middle-out music " style = "color: #FF3989; text-decoration: none;" href = "#musicjump">music</a>, or teaching myself something new through these
+          <a class = "sliding-middle-out resources " style = "color: #7989FF; text-decoration: none;" href = "#resourcesjump">resources</a>.
           <br/> Get the lowdown from my
           <a class = "sliding-middle-out resume " style = "color: #70D507; text-decoration: none;" target="_blank" href = "http://bit.ly/1NA5iM6">resume</a></p></center>
         </div>
@@ -31,7 +33,7 @@
       <div class = "row">
           <div class = " col-xs-12 col-sm-12 col-md-12 ">
               <ul id  = "social-container">
-                <li><a href = "mailto: theruthwu@gmail.com?subject= Hiya!"><img id = "socialicon" src = "https://s3.amazonaws.com/wutangruth/Icons/mail-icon.png"></a></li>
+                <li><a href = "www.google.com"><img id = "socialicon" src = "https://s3.amazonaws.com/wutangruth/Icons/mail-icon.png"></a></li>
                 <li><a href = "https://www.linkedin.com/wuruth"><img id = "socialicon" src = "https://s3.amazonaws.com/wutangruth/Icons/linkedin-icon.png"></a>
                 <li><a href = "https://github.com/wuruthie"><img id = "socialicon" src = "https://s3.amazonaws.com/wutangruth/Icons/github-icon.png"></a>
               <!--  <li><a href = "https://medium.com/@ruthwu"><img id = "socialicon" src = "https://s3.amazonaws.com/wutangruth/Icons/medium-icon.png"></a> -->
@@ -52,6 +54,7 @@
 <!-- Ruth -->
 <div id = "cover" class="container special">
   <div class = "jumbotron">
+    <a name = "aboutjump"></a>
     <div class = "row">
       <div class = "col-xs-12 col-md-12 col-lg-12">
         <center><img id = "aboutlabel" src = "https://s3.amazonaws.com/wutangruth/labels/about.png"></center>
@@ -59,7 +62,6 @@
     </div>
     <div class = "row"></br></div>
     <div class = "row"></br></div>
-    <a name = "ruth"></a>
     <div class = "row">
       <div class = "col-xs-12 col-sm-12 col-md-12">
           <center><img id = "ruthphoto" src = "https://s3.amazonaws.com/wutangruth/Images/ruth-circle.png"></center>
@@ -85,6 +87,7 @@
 <!-- Projects -->
 <div class = "jumbotron">
   <div class = "row">
+    <a name = "projectsjump"></a>
     <div class = "col-xs-12 col-md-12 col-lg-12">
       <center><img id = "projectslabel" src = "https://s3.amazonaws.com/wutangruth/labels/projects.png"></center>
     </div>
@@ -100,7 +103,7 @@
   <div class = "row">
     <div class = "col-xs-12 col-sm-offset-2 col-sm-8 col-sm-offset-2 col-md-offset-2 col-md-8 col-md-offset-2 smallexplain">
       <p>Subletinn is a company that rooms interns and blossoming professionals in houses, effectively creating urban communities of passionate and ambitious individuals.</p>
-      <p>I'm in charge of their digital presence, and I molded it through creating the brand, logo, and <a class = "sliding-middle-out projects " style = "color: #34DAAB; text-decoration: none;" target="_blank" href = "https://www.subletinn.com">website</a> to portray the company's mission and image.</p>
+      <p>I'm in charge of their digital presence, and I molded it through creating the brand, logo, and <a class = "sliding-middle-out currentprojects " style = "color: #34DAAB; text-decoration: none;" target="_blank" href = "https://www.subletinn.com">website</a> to portray the company's mission and image.</p>
       <p>As a minimum viable product, the website has consistently produced a steady stream of revenue each month.
       This is an ongoing project for me, and the website is still in alpha!</p>
     </div>
@@ -113,9 +116,59 @@
   </div>
   <div class = "row">
     <div class = "col-xs-12 col-sm-offset-2 col-sm-8 col-sm-offset-2 col-md-offset-2 col-md-8 col-md-offset-2 smallexplain">
-      <p>Loggia is an app that promotes campus inclusion through notifying everyone of events and allowing anyone to create and share events.</p>
-      <p>I designed the UI and UX for the iOS (coming soon!) and <a class = "sliding-middle-out projects " style = "color: #34DAAB; text-decoration: none;" target="_blank" href = "https://play.google.com/store/apps/details?id=com.loggia&hl=en">Android</a> devices.</p>
+      <p>Loggia is your way of finding what's happening in your campus throught the medium of an app. It looks to bring inclusion to campuses by eliminating the social and distance barriers between you and what you are interested in.</p>
+      <p>I designed the UI and UX for the iOS (coming soon!) and <a class = "sliding-middle-out currentprojects " style = "color: #34DAAB; text-decoration: none;" target="_blank" href = "https://play.google.com/store/apps/details?id=com.loggia&hl=en">Android</a> devices.</p>
       <p>Currently, I'm also developing for the iOS version and marketing the app to Grinnell students. </p>
     </div>
   </div>
+  <div class = "row">
+    <div class = "col-xs-12 col-md-12 col-lg-12">
+      <center><img id = "subletinnphoto" src = "https://s3.amazonaws.com/wutangruth/Images/rationality-round.png"></center>
+      <center><p style = "color: #34DAAB;">Rationality Hackathon</p></center>
+    </div>
+  </div>
+  <div class = "row">
+    <div class = "col-xs-12 col-sm-offset-2 col-sm-8 col-sm-offset-2 col-md-offset-2 col-md-8 col-md-offset-2 smallexplain">
+      <p>I am in charge of coordinating a hackathon at Grinnell College to award students building mobile apps related to the themes of <a class = "sliding-middle-out currentprojects " style = "color: #34DAAB; text-decoration: none;" target="_blank" href = "http://hpmore.com">Harry Potter and the Methods of Rationality</a>.</p>
+      <p>Currently I am in the process of creating the hackathon branding and imagery as well as planning the events and guidelines in addition to handling the budget.</p>
+      <p>Check back for more updates, including an events app and outline of the event!</p>
+    </div>
+  </div>
+
+<!-- Music -->
+
+<div class = "jumbotron">
+  <div class = "row">
+    <a name = "musicjump"></a>
+    <div class = "col-xs-12 col-md-12 col-lg-12">
+      <center><img id = "musiclabel" src = "https://s3.amazonaws.com/wutangruth/labels/music.png"></center>
+    </div>
+    <div class = "row"></br></div>
+    <div class = "row"></br></div>
+    <div class = "row"></br></div>
+    <div class = "row">
+      <div class = "col-xs-12 col-md-12 col-lg-12">
+        <center>
+          <p>When I'm taking a break from work, I'm most likely exploring music and discovering artists that I absolutely <b><em>love</b></em>.
+          I'm a huge fan of Afropunk, underground rap, and jazz.</p>
+         <p>Check out what I listen to on the regular!</p>
+        </center>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "col-xs-12 col-md-12 col-lg-12">
+        <ul id = "social-container">
+          <li><a href = "https://open.spotify.com/user/1261827441"><img id = "socialicon" src = "https://s3.amazonaws.com/wutangruth/Icons/spotify-icon.png"></a></li>
+          <li><a href = "https://www.youtube.com/playlist?list=PLU8tWlFYBLMofR8xGGtNAw18xeBlSWkVh"><img id = "socialicon" src = "https://s3.amazonaws.com/wutangruth/Icons/youtube-icon.png"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "col-xs-12 col-md-12 col-lg-12">
+        <center><p><b><em>P.S</b></em> I also love singing jazz tunes! Performance links coming soon</p></center>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>

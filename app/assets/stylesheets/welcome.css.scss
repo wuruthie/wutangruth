@@ -95,7 +95,7 @@ position: fixed;
 	background: #215DBD;
 }
 
-.projects.sliding-middle-out:hover:after {
+.currentprojects.sliding-middle-out:hover:after {
 	width: 100%;
 	background: #34DAAB;
 }
@@ -132,6 +132,10 @@ p {
 #projectslabel {
   max-width: none;
   width: 10em;
+}
+#musiclabel {
+  max-width: none;
+  width: 8em;
 }
 #aboutlabel {
   max-width: none;
