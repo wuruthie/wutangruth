@@ -47,4 +47,12 @@ group :development, :test do
   gem 'bootstrap-sass', '~> 3.2.0'
 
   gem 'autoprefixer-rails'
+
+  #Gemfile
+group :development do
+   #gem 'sqlite' -> comment out for now
+end
+
+group :production do
+   gem 'pg'
 end
