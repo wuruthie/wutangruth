@@ -100,6 +100,53 @@ position: fixed;
 	background: #34DAAB;
 }
 
+.learninglibraries.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #51DA34;
+}
+
+.ruby.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #F26244;
+}
+
+.swift.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #FF9F00;
+}
+
+.uiux.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #8273FF;
+}
+
+.webdev.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #69ECFF;
+}
+
+
+.fonts.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #FF85B7;
+}
+
+
+.practice.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #00AE5C;
+}
+
+.java.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #FF7100;
+}
+
+
+.life.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #3586FF;
+}
 p {
   font-family: "Raleway", Helvetica;
   line-height: 200%;
@@ -135,13 +182,17 @@ p {
 }
 #musiclabel {
   max-width: none;
-  width: 8em;
+  width: 7.5em;
 }
 #aboutlabel {
   max-width: none;
   width: 7em;
 }
 
+#resourceslabel {
+  max-width: none;
+  width: 12em;
+}
 #subletinnphoto {
   max-width: none;
   width: 5em;
